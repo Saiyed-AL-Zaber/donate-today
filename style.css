@@ -1,3 +1,54 @@
 /* for heading
  font-family: 'Merriweather', serif; */
 /* font-family: 'Open Sans', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+.btn{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 0ch;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* header-section-start-here */
+
+#header-ection{
+    background-image:linear-gradient(rgba(139, 136, 136, 0.6), rgba(0, 0, 0, 0.8)) ,url(images/donation3.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    padding: 150px 0;
+}
+.banner-section{
+    width: 70%;
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    padding: 0px 80px;
+}
+.banner-heading{
+    font-size: 52px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 16px;
+    word-spacing: 1px;
+    margin-bottom: 40px;
+}
+.banner-btn{
+    color: white;
+    background-color: rgb(241, 54, 54);
+    font-weight: 600;
+}
