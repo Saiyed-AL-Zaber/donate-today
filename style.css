@@ -22,7 +22,7 @@ body{
 /* header-section-start-here */
 
 #header-ection{
-    background-image:linear-gradient(rgba(139, 136, 136, 0.6), rgba(0, 0, 0, 0.8)) ,url(images/donation3.jpg);
+    background-image:linear-gradient(rgba(139, 136, 136, 0.3), rgba(0, 0, 0, 1)) ,url(images/donation3.jpg);
     text-align: center;
     background-repeat: no-repeat;
     background-position: center;
@@ -52,3 +52,64 @@ body{
     background-color: rgb(241, 54, 54);
     font-weight: 600;
 }
+/* header-section-ends-here */
+/* donation-section-start-here */
+#donation-section{
+    text-align: center;
+    padding: 100px 70px;
+}
+.donation-heading{
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    margin: 30px 0;
+}
+.donation-description{
+    color: rgb(63, 64, 65);
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    padding:0 220px;
+}
+ul.donation-package{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 70px auto;
+}
+li.donation-package-item{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    color: rgb(57, 57, 61);
+    font-weight: bolder;
+    text-align: center;
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(248, 240, 228, 0.7);
+    border: 3px solid transparent;
+    border-radius: 5px;
+}
+li.donation-package-item:hover{
+    background-color: rgb(238, 163, 153);
+    border: 3px solid rgb(206, 27, 27);
+    color: rgb(255, 255, 255);
+}
+.donator-choice input{
+    width: 50%;
+    color: rgb(202, 202, 202);
+    padding: 5px 0;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    font-size: 16px;
+}
+input:focus{
+    outline: none;
+}
+.donation-btn{
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(231, 81, 111);
+}
+/* donation-section-ends-here */
