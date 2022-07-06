@@ -19,6 +19,16 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+p{
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+h2{
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    margin: 30px 0;
+}
 /* header-section-start-here */
 
 #header-ection{
@@ -58,16 +68,9 @@ body{
     text-align: center;
     padding: 100px 70px;
 }
-.donation-heading{
-    font-size: 36px;
-    font-family: 'Merriweather', serif;
-    margin: 30px 0;
-}
+
 .donation-description{
     color: rgb(63, 64, 65);
-    font-size: 16px;
-    margin-bottom: 50px;
-    line-height: 1.5;
     padding:0 220px;
 }
 ul.donation-package{
@@ -87,12 +90,12 @@ li.donation-package-item{
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(248, 240, 228, 0.7);
-    border: 3px solid transparent;
+    border: 2px solid transparent;
     border-radius: 5px;
 }
 li.donation-package-item:hover{
-    background-color: rgb(238, 163, 153);
-    border: 3px solid rgb(206, 27, 27);
+    background-color: rgb(247, 186, 178);
+    border: 2px solid rgb(236, 46, 46);
     color: rgb(255, 255, 255);
 }
 .donator-choice input{
@@ -113,3 +116,58 @@ input:focus{
     background-color: rgb(231, 81, 111);
 }
 /* donation-section-ends-here */
+
+/* donate-plan-section-start-here */
+#donate-plan-section{
+    margin: 50px 0;
+    text-align: center;
+}
+.donate-plan-container{
+    width: 60%;
+    padding:20px 80px;
+    margin: 0 auto;
+}
+.donate-plan-description{
+    line-height: 1.7;
+    color: rgb(77, 77, 77);
+    margin-bottom: 40px;
+}
+.donation-cards{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 100px;
+    color: rgb(73, 73, 73);
+}
+.card-one, .card-two, .card-three{
+    width: 33.3%;
+    padding: 10px 30px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.card-img{
+    display: block;
+    margin: 30px 0;
+}
+.card-heading{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.card-text{
+    color: rgb(77, 77, 77);
+    padding-right: 10px;
+}
+.card-one{
+    background-color: rgb(224, 252, 245);
+}
+.card-two{
+    background-color: rgb(255, 244, 230);
+}
+.card-three{
+    background-color: rgb(255, 207, 217);
+}
+/* donate-plan-section-ends-here */
