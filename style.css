@@ -126,6 +126,7 @@ input:focus{
 /* donate-plan-section-start-here */
 #donate-plan-section{
     margin: 50px 0;
+    margin-bottom: 100px;
     text-align: center;
 }
 .donate-plan-container{
@@ -177,3 +178,27 @@ input:focus{
     background-color: rgb(255, 207, 217);
 }
 /* donate-plan-section-ends-here */
+/* fundrising-section-start-here */
+#fundrising-section{
+    width: 100vh;
+    display: flex;
+    margin-bottom: 100px;
+}
+.fundrising-img-box, .fundrising-text-box{
+    width: 100%;
+    flex-shrink: 0;
+}
+.fundrising-img-box img{
+    width: 100%;
+    max-width: 100%;
+}
+.fundrising-text-box{
+    padding: 40px 80px;
+    font-size: 18px;
+}
+.fundrising-btn{
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+}
+/* fundrising-section-end-here */
