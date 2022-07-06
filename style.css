@@ -67,7 +67,8 @@ h2{
 /* donation-section-start-here */
 #donation-section{
     text-align: center;
-    padding: 100px 70px;
+    padding: 80px 70px;
+    padding-bottom: 20px;
 }
 
 .donation-description{
@@ -180,28 +181,96 @@ input:focus{
 }
 /* donate-plan-section-ends-here */
 /* fundrising-section-start-here */
-#fundrising-section{
+#fundraising-section{
     width: 100%;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
-.fundrising-img-box{
+.fundraising-img-box{
     width: 50%;
     flex-shrink: 0;
 }
-.fundrising-img-box img{
+.fundraising-img-box img{
     width: 100%;
     max-width: 100%;
 }
-.fundrising-text-box{
+.fundraising-text-box{
     width: 50%;
     flex-shrink: 0;
     padding: 40px 80px;
     font-size: 18px;
 }
-.fundrising-btn{
+.fundraising-btn{
     background-color: cadetblue;
     color: white;
     cursor: pointer;
 }
-/* fundrising-section-end-here */
+/* fundraising-section-end-here */
+/* contact-section-start-here */
+#contact-section{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+#contact-section h2{
+    width: 30%;
+    margin: 0 auto;
+    border-bottom: 3px solid rgb(176, 197, 202);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(252, 238, 220);
+}
+.text-input, .email-input{
+    width: 40%;
+    background-color: rgb(255, 220, 176);
+    padding: 10px 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+textarea{
+    width: 85%;
+    background-color: rgb(255, 220, 176);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    color: rgb(255, 255, 255);
+}
+textarea:focus{
+    outline: none;
+}
+.submit-btn{
+    background-color: #e25c77;
+    color: white;
+}
+/* contact-section-ends-here */
+#footer-section{
+    text-align: center;
+    background-color: black;
+    padding: 30px 0;
+}
+.footer-header{
+    color: #bb1f3e;
+    margin: 0;
+}
+#footer-section p{
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    margin-top: 15px;
+}
